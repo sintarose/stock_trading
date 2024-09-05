@@ -22,7 +22,6 @@ class _WatchlistScreenState extends State<WatchlistScreen> {
     return Scaffold(
       appBar: AppBar(
         title: _isSearchVisible
-
             ? TextField(
                 controller: _searchController,
                 autofocus: true,
